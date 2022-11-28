@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--importation google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!----importation css ---->
+    <link rel="stylesheet" href="style.css">
+    <title>Love calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <img class="heart-logo" src="images/coeur.png" alt="coeur">
+        <h2>Love calculator</h2>
+        <h3>Enter the name to be analyzed:</h3>
+
+        <!--Notre formulaire-->
+
+        <form>
+            <div class="input-container">
+                <div class="input-group">
+                    <input type="text" id="name1" class="height-input" placeholder="Enter your name " required>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="name2" class="height-input" placeholder="Enter parther name " required>
+                </div>
+            </div>
+
+            <button>Calculate</button>
+
+        </form>
+
+        <!--affichage du resultat-->
+
+        <div class="info">
+            <p class="percentage"></p>
+            <p class="result"></p>
+        </div>
+
+
+        <!--affichage du loader --->
+        <div class="loader">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <!--affichage de la note d'avertissement -->
+
+        <div class="note">
+            <p><span>Note </span>that like all other love calculators on the Internet, this calculator is intended for
+                amusement only rather than as a real indication of love. Please follow your heart instead of the results
+                of this calculator when considering love.</p>
+        </div>
+    </div>
+
+
+    <!-- importation du javaScript----->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
