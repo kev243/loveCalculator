@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -17,32 +17,30 @@
 <body>
     <div class="container">
         <img class="heart-logo" src="images/coeur.png" alt="coeur">
-        <h2>Love calculator</h2>
-        <h3>Enter the name to be analyzed:</h3>
+        <h2>Calculatrice d'amour</h2>
+        <h3>Saisissez le nom à analyser</h3>
 
         <!--Notre formulaire-->
 
         <form>
             <div class="input-container">
                 <div class="input-group">
-                    <input type="text" id="name1" class="height-input" placeholder="Enter your name " required>
+                    <input type="text" id="name1" class="height-input" placeholder="Enter your name" >
                 </div>
 
                 <div class="input-group">
-                    <input type="text" id="name2" class="height-input" placeholder="Enter parther name " required>
+                    <input type="text" id="name2" class="height-input" placeholder="Enter parther name " >
                 </div>
             </div>
 
-            <button>Calculate</button>
+            <button>Calculer</button>
 
         </form>
 
         <!--affichage du resultat-->
 
-        <div class="info">
-            <p class="percentage"></p>
-            <p class="result"></p>
-        </div>
+        <p class="error-msg"></p>
+        <div class="results-display"></div>
 
 
         <!--affichage du loader --->
@@ -55,9 +53,9 @@
         <!--affichage de la note d'avertissement -->
 
         <div class="note">
-            <p><span>Note </span>that like all other love calculators on the Internet, this calculator is intended for
-                amusement only rather than as a real indication of love. Please follow your heart instead of the results
-                of this calculator when considering love.</p>
+            <p><span>Notez </span>que comme toutes les autres calculatrices d'amour sur Internet, cette calculatrice est destinée à
+                amusement seulement plutôt qu'a une véritable indication de l'amour. Veuillez suivre votre cœur au lieu des résultats
+                de cette calculatrice lorsque vous envisagez l'amour.</p>
         </div>
     </div>
 

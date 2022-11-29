@@ -75,11 +75,14 @@ form button:hover {
     background: #f4c060
 }
 
-.info {
+.error-msg {
     text-align: center;
-    background: white;
+   
+    padding: 10px;
+    color: #454545;
+    border-radius: 5px;
+  }
 
-}
 
 .note {
     background: white;
@@ -119,6 +122,35 @@ form button:hover {
   .dot:nth-child(3) {
     animation-delay:  0.2s;
   }
+
+  .result{
+    width: 100%;
+    margin-bottom: 20x;
+    background: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  }
+
+   .percentage{
+    font-size: 50px;
+    text-align: center;
+    color: red
+
+  }
+
+  .info{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+   
+  }
+
+  
+
+
+
   @keyframes load {
     to {
       transform: translateY(10px);
